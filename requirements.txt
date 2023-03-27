@@ -1,0 +1,2 @@
+﻿idna==3.4
+wincertstore==0.2
