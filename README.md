@@ -1,4 +1,4 @@
-# punycode
+![punycode logo](/image/logo.png)
 
 **Punycode Converter Library for Python**
 
