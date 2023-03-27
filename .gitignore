@@ -132,4 +132,5 @@ dmypy.json
 .history
 
 # Test
+test.py
 test/

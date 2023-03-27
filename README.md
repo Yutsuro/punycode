@@ -54,3 +54,29 @@ print(f"{str6} -> {punycode.convert(str6)}")
 # xn--28j2af.xn--q9jyb4c -> こっち.みんな
 # xn--wgv71a119e.jp -> 日本語.jp
 ```
+
+## ascii_only option (v0.2.0 or later)
+
+If you don't want to convert a Punycode domain to Unicode when you use `convert()` function, you can use `ascii_only` option.
+
+With this option `True`, `convert()` will convert only Unicode domains.
+
+```python
+# ascii_only option (v0.2.0 or later)
+ascii_only = True
+
+# Only Unicode domains will be converted if ascii_only=True
+print(f"{str4} -> {punycode.convert(str4, ascii_only)}")
+print(f"{str5} -> {punycode.convert(str5, ascii_only)}")
+print(f"{str6} -> {punycode.convert(str6, ascii_only)}")
+
+# xn--n8jub8754b.xn--rhqv96g -> xn--n8jub8754b.xn--rhqv96g
+# xn--28j2af.xn--q9jyb4c -> xn--28j2af.xn--q9jyb4c
+# xn--wgv71a119e.jp -> xn--wgv71a119e.jp
+```
+
+This option is available on 0.2.0 or later version, so if you use v0.1.0, please update `punycode`.
+
+```powershell
+pip install -U punycode
+```
