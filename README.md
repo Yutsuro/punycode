@@ -57,7 +57,7 @@ print(f"{str6} -> {punycode.convert(str6)}")
 
 ## ascii_only option (v0.2.0 or later)
 
-If you don't want to convert a Punycode domain to Unicode when you use `convert()` function, you can use `ascii_only` option.
+If you don't want to convert a Punycode domain to Unicode when you use `convert()` function, you can use `ascii_only` option. (Default: False)
 
 With this option `True`, `convert()` will convert only Unicode domains.
 
