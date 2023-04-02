@@ -1,5 +1,7 @@
 ![punycode logo](https://raw.githubusercontent.com/Yutsuro/punycode/main/image/logo.png)
 
+[![Downloads](https://static.pepy.tech/badge/punycode)](https://pepy.tech/project/punycode) [![Downloads](https://static.pepy.tech/badge/punycode/month)](https://pepy.tech/project/punycode) [![Downloads](https://static.pepy.tech/badge/punycode/week)](https://pepy.tech/project/punycode)
+
 **Punycode Converter Library for Python**
 
 You can convert Punycode domain to/from Unicode domain with only one function: `punycode.convert()`.
@@ -80,3 +82,7 @@ This option is available on 0.2.0 or later version, so if you use v0.1.0, please
 ```powershell
 pip install -U punycode
 ```
+
+## PyPI project page
+
+[https://pypi.org/project/punycode](https://pypi.org/project/punycode/)
